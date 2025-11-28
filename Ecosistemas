@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Ecosistemas Del Estado De Sonora</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Conectando con la naturaleza sonorense">
+  <link rel="icon" href="https://duyn491kcolsw.cloudfront.net/files/1j/1j3/1j3767.ico?ph=58fc57f349">
+  <style>
+    :root {
+      --verde-oscuro: #236a2e;
+      --verde-medio: #43a047;
+      --verde-claro: #b9f6ca;
+      --gris-fondo: #f4fbe8;
+      --texto: #184d29;
+    }
+    body {
+      font-family: 'Segoe UI', Verdana, Arial, sans-serif;
+      background: var(--gris-fondo);
+      color: var(--texto);
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(90deg, var(--verde-oscuro) 60%, var(--verde-medio));
+      color: white;
+      padding: 2rem 1rem 1rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0 auto 1rem auto;
+      font-size: 2.5rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-shadow: 0 2px 6px #155b23aa;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      font-size: 1.1rem;
+    }
+    nav li {
+      display: inline;
+    }
+    nav a {
+      color: var(--verde-claro);
+      background: transparent;
+      padding: 8px 18px;
+      border-radius: 40px;
+      text-decoration: none;
+      transition: background .3s, color .3s;
+      font-weight: 500;
+    }
+    nav a:hover {
+      background: var(--verde-claro);
+      color: var(--verde-oscuro);
+      box-shadow: 0 2px 8px #43a04733;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 0 18px #43a04730;
+    }
+    section {
+      margin-bottom: 2.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--verde-claro);
+    }
+    section:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+    h2 {
+      color: var(--verde-oscuro);
+      font-size: 2rem;
+    }
+    h3 {
+      color: var(--verde-medio);
+      margin-top: 0.5rem;
+    }
+    a {
+      color: var(--verde-medio);
+      text-decoration: underline;
+      transition: color .3s;
+    }
+    a:hover {
+      color: var(--verde-oscuro);
+    }
+    ul {
+      padding-left: 1.2rem;
+    }
+    iframe {
+      border-radius: 8px;
+      border: 2px solid var(--verde-claro);
+      margin-top: 1rem;
+    }
+    footer {
+      background: var(--verde-oscuro);
+      color: var(--verde-claro);
+      text-align: center;
+      padding: 1.5rem 1rem;
+      margin-top: 2rem;
+      font-size: 1rem;
+    }
+    footer a {
+      color: var(--verde-claro);
+      text-decoration: underline;
+    }
+    .vsc {
+      color: #43a047;
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-size: 1.08em;
+      display: block;
+      margin-top: .8em;
+    }
+    @media (max-width: 700px) {
+      main {
+        margin: 1rem;
+        padding: .8rem;
+      }
+      nav ul {
+        flex-direction: column;
+        gap: 8px;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ecosistemas Del Estado De Sonora</h1>
+    <nav>
+      <ul>
+        <li><a href="/home/">Inicio</a></li>
+        <li><a href="/sobre-nosotros/">Ecosistemas existentes</a></li>
+        <li><a href="/servicios/">Tipos de ecosistemas</a></li>
+        <li><a href="/nuestro-trabajo/">Nuestro Trabajo</a></li>
+        <li><a href="/fotogaleria/">Fotogalería</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Conectando con la naturaleza sonorense</h2>
+      <p>
+        Bienvenido a los ecosistemas del Estado De Sonora, donde abunda la naturaleza y el mar esta pegado con el desierto.
+      </p>
+      <a href="/sobre-nosotros/">Ecosistemas existentes</a>
+    </section>
+
+    <section>
+      <h2>¿Qué es un ecosistema?</h2>
+      <p>
+        Un ecosistema es un sistema que está formado por un conjunto de organismos, el hábitat en el que viven y las relaciones que se establecen entre ellos. Las especies de seres vivos que habitan un ecosistema interactúan entre sí y con el medio, determinando los flujos de energía y de materia que ocurren en ese ambiente.
+      </p>
+      <a href="/servicios/">Tipos de ecosistemas</a>
+    </section>
+
+    <section>
+      <h2>Conservación, sostenibilidad y desarrollo</h2>
+      <div>
+        <h3>Conservación de biodiversidad</h3>
+        <p>Es importante tomar medidas de conservación de biodiversidad para proteger la variedad de especies y ecosistemas que existen en nuestro planeta y asegurar un futuro sostenible.</p>
+      </div>
+      <div>
+        <h3>Sostenibilidad ambiental</h3>
+        <p>Es importante tomar medidas de sostenibilidad ambiental para garantizar un futuro sano y próspero para nuestro planeta y sus habitantes.</p>
+      </div>
+      <div>
+        <h3>Promoción de desarrollo sostenible</h3>
+        <p>Es necesario promover el desarrollo sostenible para garantizar un futuro próspero y equilibrado para las generaciones presentes y futuras.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>¿Por qué decidimos crear un sitio web?</h2>
+      <p>
+        Todo comienza con una idea, una visión clara de lo que queremos transmitir y lograr con nuestro sitio web. Aquí es donde entra en juego la planificación estratégica. Debemos definir nuestros objetivos, nuestra audiencia y la estructura del sitio.
+      </p>
+      <a href="/nuestro-trabajo/">Nuestro trabajo</a>
+    </section>
+
+    <section>
+      <h2>Preservando la biodiversidad sonorense</h2>
+      <p>
+        Somos orgullosamente sonorenses dedicados a la conservación y preservación de los ecosistemas en el estado de Sonora. Nuestro objetivo es promover prácticas sostenibles en la agricultura y silvicultura para proteger la biodiversidad y garantizar un futuro saludable para las generaciones venideras. ¡Únete a nosotros y juntos cuidemos nuestro entorno!
+      </p>
+      <a href="/servicios/">Tipos de ecosistemas</a>
+    </section>
+
+    <section>
+      <h2>Naturaleza en Sonora</h2>
+      <a href="/fotogaleria/">Fotogalería</a>
+    </section>
+
+    <section>
+      <h2>Contacto</h2>
+      <p>Hecho por el grupo 103 Matutino en el día 27 de noviembre del 2025.</p>
+      <ul>
+        <li><strong>Cobach José María Maytorena Tapia</strong><br>
+          Blvd. San Germán y Circuito Mirador S/N, Fracc. San Germán, C.P. 85424, Guaymas, Sonora.
+        </li>
+        <li><strong>Teléfono:</strong> (+52) 622 113-54-62</li>
+        <li><strong>Email:</strong> guaymas@bachilleresdesonora.edu.mx</li>
+        <li><strong>Facebook:</strong> @Cobach Plantel José María Maytorena Tapia</li>
+      </ul>
+      <iframe src="https://web-2022.webnode.it/widgets/googlemaps/?z=15&amp;a=Blvd.+San+Germ%C3%A1n+y+Circuito+Mirador+S%2FN%2C+Fracc.+San+Germ%C3%A1n%2C+C.P.+85424%2C" style="width:100%;height:220px;border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>Creado con <a href="https://code.visualstudio.com/" rel="noopener nofollow" target="_blank">Visual Studio Code</a></p>
+    <span class="vsc">Esta web fue editada y creada por el grupo 103 Matutino usando Visual Studio Code.</span>
+    <p><a href="#">Cookies</a></p>
+  </footer>
+
+</body>
+</html>
